@@ -1,5 +1,5 @@
 Rails.application.routes.draw do
-  # root 'bugs#index'
+  root 'bugs#index'
   resources :bugs
   # For details on the DSL available within this file, see https://guides.rubyonrails.org/routing.html
 end
