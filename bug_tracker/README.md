@@ -1,4 +1,4 @@
 # README
 
-`$ bundle`
-`$ yarn`
+- `$ bundle`
+- `$ yarn`
