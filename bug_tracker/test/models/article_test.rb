@@ -1,4 +1,6 @@
-require "test_helper"
+# frozen_string_literal: true
+
+require 'test_helper'
 
 class ArticleTest < ActiveSupport::TestCase
   # test "the truth" do
@@ -24,7 +26,6 @@ end
 # Run options: --seed 24621
 
 # # Running:
-
 
 # -- valid?(:publish)を呼んだ結果
 # Author can't be blank
