@@ -11,6 +11,9 @@ class ArticleTest < ActiveSupport::TestCase
   test 'seeing if errors are overridden when valid? is called twice with different contexts' do
     article = Article.new
     article.valid?(:publish)
+    # binding.pry
+    # binding.break
+    # byebug
     puts
     puts '-- valid?(:publish)を呼んだ結果'
     puts article.errors.full_messages
